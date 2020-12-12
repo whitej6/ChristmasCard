@@ -1,10 +1,22 @@
 # Build a Christmas Tree!
 We are going to take everything we taught Tina in the last three lessons and use what we learned to draw a Christmas Tree!!
 
-## Start with the tree trunk
+## Start with a background color
+Let's jazz up our card with a light blue background color
+```python
+import turtle
+
+background = turtle.Screen()
+background.bgcolor("light blue")
+```
+
+## Add the tree trunk
 We are also going to have Tina start down and to the left a little.
 ```python
 import turtle
+
+background = turtle.Screen()
+background.bgcolor("light blue")
 
 tina = turtle.Turtle()
 tina.shape("turtle")
@@ -33,6 +45,9 @@ tina.end_fill()
 We need to move Tina to the left and draw a large green equilateral triangle.
 ```python
 import turtle
+
+background = turtle.Screen()
+background.bgcolor("light blue")
 
 tina = turtle.Turtle()
 tina.shape("turtle")
@@ -75,6 +90,9 @@ tina.end_fill()
 I am going to use a mix of blue and red ornaments to add to the tree.  To do this we will tell Tina to run around the tree and draw circles.
 ```python
 import turtle
+
+background = turtle.Screen()
+background.bgcolor("light blue")
 
 tina = turtle.Turtle()
 tina.shape("turtle")
@@ -169,6 +187,9 @@ tina.end_fill()
 Now let's send Tina to the top of the screen to wish everyone a Merry Christmas
 ```python
 import turtle
+
+background = turtle.Screen()
+background.bgcolor("light blue")
 
 tina = turtle.Turtle()
 tina.shape("turtle")
